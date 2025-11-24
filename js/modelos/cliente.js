@@ -24,4 +24,7 @@ export default class Cliente {
     get Dependentes() { return this.dependentes; }
     get Titular() { return this.titular; }
     set Endereco(endereco) { this.endereco = endereco; }
+    set Nome(nome) { this.nome = nome; }
+    set NomeSocial(nomeSocial) { this.nomeSocial = nomeSocial; }
+    set DataNascimento(dataNascimento) { this.dataNascimento = dataNascimento; }
 }

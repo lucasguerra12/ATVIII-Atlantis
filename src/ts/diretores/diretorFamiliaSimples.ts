@@ -12,7 +12,7 @@ export default class DiretorFamiliaSimples extends Diretor<Acomodacao> {
 
     public construir(): Acomodacao {
         let objetoConstrutor = this.construtor as ConstrutorAcomodacao;
-        objetoConstrutor.NomeAcomodacao = NomeAcomadacao.FamilaSimples; 
+        objetoConstrutor.NomeAcomodacao = NomeAcomadacao.FamiliaSimples; 
         objetoConstrutor.CamaSolteiro = 2;
         objetoConstrutor.CamaCasal = 1;
         objetoConstrutor.Suite = 1;
