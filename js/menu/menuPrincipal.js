@@ -15,6 +15,7 @@ export default class MenuPrincipal {
         console.log(`| 5 - Listar acomodações`);
         console.log(`| 6 - Cadastrar nova acomodação`);
         console.log(`| 7 - Fazer Check-in(Hospedagem)`);
+        console.log(`| 8 - Listar hospedagens ativas`);
         console.log(`----------------------`);
         console.log(`****************************`);
         console.log(`| 0 - Sair`);

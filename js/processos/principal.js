@@ -5,6 +5,7 @@ import TipoCadastroCliente from "./tipoCadastroCliente.js";
 import TipoListagemClientes from "./tipoListagemClientes.js";
 import CadastroAcomodacoes from "./cadastroAcomodacoes.js";
 import CadastroHospedagem from "./cadastroHospedagem.js";
+import ListagemHospedagens from "./listagemHospedagens.js";
 export default class Principal extends Processo {
     constructor() {
         super();
@@ -33,6 +34,10 @@ export default class Principal extends Processo {
                 break;
             case 7:
                 this.processo = new CadastroHospedagem();
+                this.processo.processar();
+                break;
+            case 8:
+                this.processo = new ListagemHospedagens();
                 this.processo.processar();
                 break;
             case 0:
