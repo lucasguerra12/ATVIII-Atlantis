@@ -6,25 +6,18 @@ import DiretorFamiliaSuper from "../diretores/diretorFamiliaSuper.js";
 import DiretorSolteiroMais from "../diretores/diretorSolteiroMais.js";
 import DiretorSolteiroSimples from "../diretores/diretorSolteiroSimples.js";
 import Armazem from "../dominio/armazem.js";
-import Acomodacao from "../modelos/acomodacao.js";
 import MenuTipoAcomodacao from "../menu/menuTipoAcomodacao.js";
-import Diretor from "../abstracoes/diretor.js";
-
 export default class CadastroAcomodacoes extends Processo {
-    private acomodacoes: Acomodacao[]
-    
+    acomodacoes;
     constructor() {
-        super()
-        this.acomodacoes = Armazem.InstanciaUnica.Acomodacoes
-        this.menu = new MenuTipoAcomodacao()
+        super();
+        this.acomodacoes = Armazem.InstanciaUnica.Acomodacoes;
+        this.menu = new MenuTipoAcomodacao();
     }
-
-    processar(): void {
-        this.menu.mostrar()
-        this.opcao = this.entrada.receberNumero('Qual opção desejada?')
-        
-        let diretor: Diretor<Acomodacao>;
-
+    processar() {
+        this.menu.mostrar();
+        this.opcao = this.entrada.receberNumero('Qual opção desejada?');
+        let diretor;
         switch (this.opcao) {
             case 1:
                 diretor = new DiretorSolteiroSimples();
@@ -60,7 +53,7 @@ export default class CadastroAcomodacoes extends Processo {
                 console.log("Voltando...");
                 break;
             default:
-                console.log('Opção não entendida :(')
+                console.log('Opção não entendida :(');
         }
     }
 }

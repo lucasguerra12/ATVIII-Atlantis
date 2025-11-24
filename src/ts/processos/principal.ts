@@ -3,6 +3,8 @@ import MenuPrincipal from "../menu/menuPrincipal.js"
 import ListagemAcomodacoes from "./listagemAcomodacoes.js"
 import TipoCadastroCliente from "./tipoCadastroCliente.js"
 import TipoListagemClientes from "./tipoListagemClientes.js"
+import CadastroAcomodacoes from "./cadastroAcomodacoes.js"
+import CadastroHospedagem from "./cadastroHospedagem.js"
 
 export default class Principal extends Processo {
     constructor() {
@@ -24,6 +26,14 @@ export default class Principal extends Processo {
                 break
             case 5:
                 this.processo = new ListagemAcomodacoes()
+                this.processo.processar()
+                break
+            case 6:
+                this.processo = new CadastroAcomodacoes()
+                this.processo.processar()
+                break
+            case 7:
+                this.processo = new CadastroHospedagem()
                 this.processo.processar()
                 break
             case 0:
