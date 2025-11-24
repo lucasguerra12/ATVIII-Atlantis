@@ -1,7 +1,7 @@
-import Processo from "../abstracoes/processo";
-import { TipoDocumento } from "../enumeracoes/TipoDocumento";
-import Cliente from "../modelos/cliente";
-import Documento from "../modelos/documento";
+import Processo from "../abstracoes/processo.js";
+import { TipoDocumento } from "../enumeracoes/TipoDocumento.js";
+import Cliente from "../modelos/cliente.js";
+import Documento from "../modelos/documento.js";
 
 export default class CadastroRg extends Processo {
     private cliente: Cliente

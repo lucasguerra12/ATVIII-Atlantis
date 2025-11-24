@@ -1,6 +1,6 @@
-import Impressor from "../interfaces/impressor"
-import Documento from "../modelos/documento"
-import ImpressorDocumento from "./impressorDocumento"
+import Impressor from "../interfaces/impressor.js"
+import Documento from "../modelos/documento.js"
+import ImpressorDocumento from "./impressorDocumento.js"
 
 export default class ImpressorDocumentos implements Impressor {
     private documentos: Documento[]

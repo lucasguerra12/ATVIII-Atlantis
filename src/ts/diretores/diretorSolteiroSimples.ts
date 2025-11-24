@@ -1,7 +1,7 @@
-import ConstrutorAcomodacao from "../construtores/construtorAcomodacao";
-import { NomeAcomadacao } from "../enumeracoes/NomeAcomadacao";
-import Acomodacao from "../modelos/acomodacao";
-import Diretor from "../abstracoes/diretor";
+import ConstrutorAcomodacao from "../construtores/construtorAcomodacao.js";
+import { NomeAcomadacao } from "../enumeracoes/NomeAcomadacao.js";
+import Acomodacao from "../modelos/acomodacao.js";
+import Diretor from "../abstracoes/diretor.js";
 
 export default class DiretorSolteiroSimples extends Diretor<Acomodacao> {
 

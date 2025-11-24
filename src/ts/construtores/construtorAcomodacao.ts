@@ -1,6 +1,6 @@
-import { NomeAcomadacao } from "../enumeracoes/NomeAcomadacao";
-import Construtor from "../interfaces/construtor";
-import Acomodacao from "../modelos/acomodacao";
+import { NomeAcomadacao } from "../enumeracoes/NomeAcomadacao.js";
+import Construtor from "../interfaces/construtor.js";
+import Acomodacao from "../modelos/acomodacao.js";
 
 export default class ConstrutorAcomodacao implements Construtor<Acomodacao>{
     private nomeAcomodacao: NomeAcomadacao = NomeAcomadacao.SolteiroSimples

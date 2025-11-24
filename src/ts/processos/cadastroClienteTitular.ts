@@ -1,8 +1,8 @@
-import Processo from "../abstracoes/processo";
-import Armazem from "../dominio/armazem";
-import Cliente from "../modelos/cliente";
-import CadastrarDocumentosCliente from "./cadastroDocumentosCliente";
-import CadastroEnderecoTitular from "./cadastroEnderecoTitular";
+import Processo from "../abstracoes/processo.js";
+import Armazem from "../dominio/armazem.js";
+import Cliente from "../modelos/cliente.js";
+import CadastrarDocumentosCliente from "./cadastroDocumentosCliente.js";
+import CadastroEnderecoTitular from "./cadastroEnderecoTitular.js";
 
 export default class CadastroClienteTitular extends Processo {
     processar(): void {

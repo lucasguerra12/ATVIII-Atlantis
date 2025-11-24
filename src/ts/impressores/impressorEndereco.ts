@@ -1,5 +1,5 @@
-import Impressor from "../interfaces/impressor";
-import Endereco from "../modelos/endereco";
+import Impressor from "../interfaces/impressor.js";
+import Endereco from "../modelos/endereco.js";
 
 export default class ImpressorEndereco implements Impressor {
     private endereco: Endereco

@@ -1,7 +1,7 @@
-import Impressor from "../interfaces/impressor";
-import Cliente from "../modelos/cliente";
-import ImpressorDocumentos from "./impressorDocumentos";
-import ImpressorEndereco from "./impressorEndereco";
+import Impressor from "../interfaces/impressor.js";
+import Cliente from "../modelos/cliente.js";
+import ImpressorDocumentos from "./impressorDocumentos.js";
+import ImpressorEndereco from "./impressorEndereco.js";
 
 export default class ImpressaorCliente implements Impressor {
     private cliente: Cliente

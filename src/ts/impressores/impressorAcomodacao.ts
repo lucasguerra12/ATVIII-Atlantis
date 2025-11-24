@@ -1,5 +1,5 @@
-import Impressor from "../interfaces/impressor";
-import Acomodacao from "../modelos/acomodacao";
+import Impressor from "../interfaces/impressor.js";
+import Acomodacao from "../modelos/acomodacao.js";
 
 export default class ImpressorAcomodacao implements Impressor {
     private acomodacao: Acomodacao

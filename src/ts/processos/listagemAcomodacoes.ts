@@ -1,8 +1,8 @@
-import Processo from "../abstracoes/processo";
-import Armazem from "../dominio/armazem";
-import ImpressorAcomodacao from "../impressores/impressorAcomodacao";
-import Impressor from "../interfaces/impressor";
-import Acomodacao from "../modelos/acomodacao";
+import Processo from "../abstracoes/processo.js";
+import Armazem from "../dominio/armazem.js";
+import ImpressorAcomodacao from "../impressores/impressorAcomodacao.js";
+import Impressor from "../interfaces/impressor.js";
+import Acomodacao from "../modelos/acomodacao.js";
 
 export default class ListagemAcomodacoes extends Processo {
     private acomodacoes: Acomodacao[]

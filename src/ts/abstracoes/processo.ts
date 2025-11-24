@@ -1,5 +1,5 @@
-import Menu from "../interfaces/menu"
-import Entrada from "../io/entrada"
+import Menu from "../interfaces/menu.js"
+import Entrada from "../io/entrada.js"
 
 export default abstract class Processo {
     protected opcao!: number

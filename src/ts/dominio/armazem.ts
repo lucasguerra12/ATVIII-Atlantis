@@ -1,5 +1,5 @@
-import Acomodacao from "../modelos/acomodacao";
-import Cliente from "../modelos/cliente";
+import Acomodacao from "../modelos/acomodacao.js";
+import Cliente from "../modelos/cliente.js";
 
 export default class Armazem {
     private static instanciaUnica: Armazem = new Armazem()

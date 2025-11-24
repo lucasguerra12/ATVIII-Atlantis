@@ -1,6 +1,6 @@
-import Documento from "./documento"
-import Endereco from "./endereco"
-import Telefone from "./telefone"
+import Documento from "./documento.js"
+import Endereco from "./endereco.js"
+import Telefone from "./telefone.js"
 
 export default class Cliente {
     private nome: string

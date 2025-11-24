@@ -1,8 +1,8 @@
-import Processo from "../abstracoes/processo";
-import Armazem from "../dominio/armazem";
-import ImpressaorCliente from "../impressores/impressorCliente";
-import Impressor from "../interfaces/impressor";
-import Cliente from "../modelos/cliente";
+import Processo from "../abstracoes/processo.js";
+import Armazem from "../dominio/armazem.js";
+import ImpressaorCliente from "../impressores/impressorCliente.js";
+import Impressor from "../interfaces/impressor.js";
+import Cliente from "../modelos/cliente.js";
 
 export default class ListagemTitulares extends Processo {
     private clientes: Cliente[]

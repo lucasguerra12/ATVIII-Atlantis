@@ -1,4 +1,4 @@
-import { TipoDocumento } from "../enumeracoes/TipoDocumento"
+import { TipoDocumento } from "../enumeracoes/TipoDocumento.js"
 
 export default class Documento {
     private numero: string

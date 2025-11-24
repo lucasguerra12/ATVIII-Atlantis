@@ -1,4 +1,4 @@
-import Prototipo from "../interfaces/prototipo"
+import Prototipo from "../interfaces/prototipo.js"
 
 export default class Endereco implements Prototipo {
     private rua: string

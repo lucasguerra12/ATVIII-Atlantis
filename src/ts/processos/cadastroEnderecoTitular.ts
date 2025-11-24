@@ -1,6 +1,6 @@
-import Processo from "../abstracoes/processo";
-import Cliente from "../modelos/cliente";
-import Endereco from "../modelos/endereco";
+import Processo from "../abstracoes/processo.js";
+import Cliente from "../modelos/cliente.js";
+import Endereco from "../modelos/endereco.js";
 
 export default class CadastroEnderecoTitular extends Processo {
     private cliente: Cliente

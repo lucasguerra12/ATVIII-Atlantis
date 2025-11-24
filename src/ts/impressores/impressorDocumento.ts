@@ -1,5 +1,5 @@
-import Impressor from "../interfaces/impressor";
-import Documento from "../modelos/documento";
+import Impressor from "../interfaces/impressor.js";
+import Documento from "../modelos/documento.js";
 
 export default class ImpressorDocumento implements Impressor {
     private documento: Documento

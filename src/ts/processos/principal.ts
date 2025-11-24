@@ -1,8 +1,8 @@
-import Processo from "../abstracoes/processo"
-import MenuPrincipal from "../menus/menuPricipal"
-import ListagemAcomodacoes from "./listagemAcomodacoes"
-import TipoCadastroCliente from "./tipoCadastroCliente"
-import TipoListagemClientes from "./tipoListagemClientes"
+import Processo from "../abstracoes/processo.js"
+import MenuPrincipal from "../menu/menuPrincipal.js"
+import ListagemAcomodacoes from "./listagemAcomodacoes.js"
+import TipoCadastroCliente from "./tipoCadastroCliente.js"
+import TipoListagemClientes from "./tipoListagemClientes.js"
 
 export default class Principal extends Processo {
     constructor() {
