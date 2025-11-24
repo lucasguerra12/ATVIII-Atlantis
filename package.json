@@ -1,0 +1,28 @@
+{
+  "name": "atviii-atlantis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasguerra12/ATVIII-Atlantis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasguerra12/ATVIII-Atlantis/issues"
+  },
+  "homepage": "https://github.com/lucasguerra12/ATVIII-Atlantis#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/prompt-sync": "^4.2.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
